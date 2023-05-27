@@ -1,0 +1,242 @@
+* {
+    padding: 0 auto;
+    margin: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+
+}
+
+
+/* backgasdddddddddddddddddddddddddddround */
+.deym{
+    align-items: center;
+    margin:10px;
+    padding:  50px;
+   border-radius: 20px;
+   background-color:rgb(8, 8, 8);
+   border-image: url(ab.jpg);
+   height: 400px;
+   color: white;
+   
+}
+body {
+background-color: rgb(174, 217, 255);
+
+  
+    
+
+}
+
+.type{
+    font-style:normal;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    background-color: #fce8e6;
+    padding: 50px;
+    border-radius:70px;
+    color: #494949;
+
+}
+
+
+
+
+
+header {
+    
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #F5DEB3;
+}
+.logo{
+    font-size: 70px;
+    color: yellow;
+    align-self: start;
+}
+.click{
+    align-items: center;
+    color: #808080
+}
+.active{
+    color: yellow;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+header .header-left nav ul {
+    display: flex;
+}
+nav ul li a {
+    
+    display: block;
+    color: #cfd9e0;
+    font-size:20px;
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+nav ul li a:hover {
+    color:yellow;
+}
+@media only screen and (max-width: 1000px) {
+    header {
+        padding: 0 20px;
+    }
+    header .header-left nav {
+        margin: 0;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        background-color: #0b2239;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+        z-index: -1;
+    }
+    header .header-left nav ul {
+        display: block;
+    }
+}
+
+
+/* pasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddogi */
+.cont{
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.typo{
+    position: relative;
+    background: #B0E0E6 ;
+    width: 300px;
+    height: 350px;
+    margin:40px;
+    padding: 5px;
+    border-radius: 20px;
+    color: #494949;
+}
+
+.typo a{
+    
+    background-color: #000000;
+    color: white;
+    padding: 0px 0px;
+    display: block;
+    text-align: center;
+    margin: 10px 100px;
+    text-decoration: none;
+    position: relative;
+    top: 1%;
+    border-radius: 10px;
+    height: 20px;
+    
+}
+.typo h1{
+    text-align: center;
+}
+.typo:hover{
+    background-color:#cabbf7;
+    color: yellow;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1.2s ease;
+}
+.typo a:hover{
+   
+    color:black;
+    background: rgb(255, 255, 255);
+    
+}
+
+.card-image{
+    background-color:black;
+    height: 250px;
+    margin-bottom:15px;
+    background-size: cover;
+    border-radius: 20px;
+   
+}
+.tshirt{
+    background-image: url(tshirtpic.webp);
+}
+.polo{
+    background-image: url(Polo1.0.jpg);
+}
+.trees{
+    background-image: url(Coords1.0.jpg);
+}
+
+.top{
+    background-image: url(Top1.0.jpg);
+}
+.sleeve{
+    background-image: url(Sleeve1.0.jpg);
+}
+.dress{
+    background-image: url(Dress1.0.jpg);
+}
+
+/* */
+
+.front {
+ 
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #cabbf7;
+    background-size: cover;
+    height: 400px;
+    
+    
+
+}
+
+.front-text {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    bottom: 50px;
+}
+
+.front-text > h1 {
+   
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.front-text > h3 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+

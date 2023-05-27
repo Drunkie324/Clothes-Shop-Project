@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='font-awesome.min.css'>
+    
+    <title>Catherine's Flower Shop</title>
+</head>
+<body>
+    <a class="top"></a>
+    <header> 
+        <div>        
+            <ul class="header-pick">       
+                <div>FLOWER SHOP</div> 
+                <il><a href="home.html" class="pick">Home</a></il> 
+            <il><a href="about.html" class="pick">About</a></il> 
+            <il><a href="services.html" class="pick">Services</a></il>
+            <il><a href="contact.html" class="pick">Contact</a></il>
+
+        </ul>
+        </div>
+    </header>
+    <br>
+
+    <section class="sec">
+        <body>
+            <div class="p">
+                 <p>"We deliver sweetness and happiness everyday."</p>
+
+
+    <div class="grid-container">
+        <div class = "cf">
+         <img src="Logo.jpg" width="500px" ; height="500px">  
+                <h1></h1>
+                <p></p>
+    
+    
+    </section>
+
+    <div>
+          
+    </div>
+</body>
+<style>
+    .pic{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        background-color:beige
+
+    } 
+    
+</style>
+</html>
